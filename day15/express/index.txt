@@ -1,0 +1,5 @@
+npm init -y
+npm install express
+npm i --save-dev nodemon
+npm run devStart ->index.js
+npm i ejs
