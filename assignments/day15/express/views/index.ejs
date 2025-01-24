@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- to access information using ejs -->
+  <!-- run all the code between symbol and output the code -->
+  <!-- the value of text is coming from server -->
+  Hello from Aiman <%= text %>
+    <h1>Hello from Aiman <%= 2 + 2 %>
+    </h1>
+    <h1>Hello from Aiman <%= text %>
+    </h1>
+    <!-- 
+text is not defined -->
+    <!-- sometimes variables defied in server or sometime not -->
+    <!-- Hello from Aiman <%= locals.text || 'default' %> -->
+</body>
+
+</html>
