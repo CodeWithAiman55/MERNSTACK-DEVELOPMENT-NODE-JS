@@ -1,5 +1,3 @@
-
-
 function enrollStudent(studentName, courseName, attendance) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
