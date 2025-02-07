@@ -1,16 +1,45 @@
 {
+<<<<<<< HEAD:day14/express-ejs-users/package.json
+<<<<<<<< HEAD:day14/express-ejs-users/package.json
+  "name": "express-ejs-users",
+========
+  "name": "thapa",
+>>>>>>>> origin/main:assignments/package.json
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
+=======
   "name": "express-ejs-users",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> origin/main:assignments/day14/express-ejs-users/package.json
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+<<<<<<< HEAD:day14/express-ejs-users/package.json
     "ejs": "^3.1.10",
     "express": "^4.21.2"
+=======
+<<<<<<<< HEAD:package.json
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.18.1",
+    "passport": "^0.7.0"
+========
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+>>>>>>>> origin/main:day14/express-ejs-users/package.json
+>>>>>>> origin/main:assignments/day14/express-ejs-users/package.json
   }
 }

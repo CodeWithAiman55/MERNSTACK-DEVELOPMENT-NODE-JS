@@ -1,3 +1,8 @@
+<<<<<<< HEAD:day17/index.js
+=======
+
+
+>>>>>>> origin/main:assignments/day17/index.js
 function enrollStudent(studentName, courseName, attendance) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
